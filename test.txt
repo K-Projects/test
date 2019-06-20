@@ -1,0 +1,20 @@
+Dit is een test bestand voor github.
+Files en directories dat niet mee gepushed mogen worden:
+#Eclipse
+.project
+.classmap
+.settings/
+
+#Intellij
+.idea/
+*.iws
+
+#mac
+.DS_Store
+
+#GIT commando's
+git status - 	Zie welke bestanden er klaar staan dat gecommit moeten/kunnen worden en welke dat klaar staan om 
+		gepushed te worden
+
+git add . of * of bestandnaam - Dit gaat bestanden klaarzetten om te pushen
+git commit -m "" - Hier ga je de bestanden committen 
